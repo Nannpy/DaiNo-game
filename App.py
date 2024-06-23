@@ -13,4 +13,4 @@ with col1 :
     )
 
 with col2:
-    st.header('Face Excersice interface')
+    cap = Videocapture(0)
