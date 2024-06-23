@@ -9,8 +9,7 @@ with col1 :
         f"""
         <iframe src="{game_url}" width="800" height="600" frameborder="0"></iframe>
         """,
-        unsafe_allow_html=True,
-        '<div style="text-align: left;'> game_url </div>', unsafe_allow_html=True
+        unsafe_allow_html=True
     )
 
 with col2:
